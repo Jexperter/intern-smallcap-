@@ -1,0 +1,328 @@
+.background1Icon {
+  height: 514px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.formContainer,
+.images1Icon {
+  margin: 0 !important;
+  position: absolute;
+}
+.images1Icon {
+  height: 432.6px;
+  width: 475px;
+  bottom: 17.4px;
+  left: 68px;
+  object-fit: contain;
+  mix-blend-mode: linear-burn;
+  z-index: 1;
+}
+.formContainer {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: 100%;
+}
+.welcomeToSmallCap {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.title,
+.welcomeTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.title {
+  justify-content: flex-start;
+  padding: var(--padding-9xs-8) var(--padding-5xs);
+  z-index: 1;
+}
+.welcomeTitle {
+  width: 702.7px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.getInTouch1,
+.needToGet {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.getInTouch1 {
+  width: 250px;
+  height: 59px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.needToGet {
+  height: 131px;
+  flex: 1;
+  max-width: 100%;
+  z-index: 2;
+}
+.formHeading,
+.touchDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.touchDescription {
+  align-self: stretch;
+  height: 118px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-abeezee);
+}
+.formHeading {
+  width: 509px;
+  flex-direction: column;
+  min-width: 509px;
+}
+.emailAddress,
+.fullName {
+  position: relative;
+  line-height: 25.6px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 500;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.fullName {
+  min-width: 123.2px;
+}
+.emailAddress {
+  width: 182.7px;
+}
+.inputIconsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.iconEnvelopeIcon,
+.iconUserIcon {
+  position: absolute;
+  top: 11px;
+  left: 21px;
+  width: 25.1px;
+  height: 25.8px;
+  z-index: 2;
+}
+.iconEnvelopeIcon {
+  top: 72px;
+  height: 18px;
+}
+.inputIcons {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.inputContainer {
+  flex-direction: column;
+  padding: var(--padding-2xs) var(--padding-xl) var(--padding-smi-3)
+    var(--padding-49xl);
+  position: relative;
+  gap: var(--gap-12xl-4);
+}
+.inputContainer,
+.inputFields,
+.messageField {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.messageField {
+  border: 0;
+  background-color: transparent;
+  height: 152.5px;
+  width: auto;
+  outline: 0;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90.26deg, #210947, rgba(38, 17, 73, 0.57));
+  flex-direction: row;
+  padding: var(--padding-mid) var(--padding-2xl);
+  box-sizing: border-box;
+  font-family: var(--heading-h4-semibold);
+  font-style: italic;
+  font-weight: 500;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gainsboro-200);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.inputFields {
+  flex-direction: column;
+  gap: var(--gap-mini-1);
+}
+.fullNameEmail,
+.getInTouchContainer,
+.touchForm {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.fullNameEmail {
+  width: 542.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 542.8px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gainsboro-200);
+  font-family: var(--heading-h4-semibold);
+}
+.getInTouchContainer,
+.touchForm {
+  flex-direction: row;
+}
+.touchForm {
+  width: 1170.8px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.getInTouchContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.button {
+  height: 62px;
+  width: 146px;
+  box-shadow: 0 1px 2px rgba(20, 14, 62, 0.25), 0 0 0 1px #4834d4 inset,
+    0 1px 1px 1px rgba(255, 255, 255, 0.25) inset,
+    0-1px 1px 1px rgba(52, 35, 170, 0.25) inset;
+}
+.sendMessage {
+  width: 404.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.getInTouch {
+  width: 1230.7px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-smi-5);
+  font-size: var(--font-size-8xl);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}
+.contactUs,
+.contactUsWrapper,
+.getInTouch {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactUs {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-19xl) var(--padding-6xs) var(--padding-33xl);
+  position: relative;
+  gap: var(--gap-xl-4);
+  mix-blend-mode: darken;
+  z-index: 5;
+}
+.contactUsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-54xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 1275px) {
+  .formHeading,
+  .fullNameEmail {
+    flex: 1;
+  }
+  .touchForm {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .welcomeToSmallCap {
+    font-size: var(--font-size-10xl);
+  }
+  .formHeading,
+  .fullNameEmail {
+    min-width: 100%;
+  }
+  .contactUs {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .contactUsWrapper {
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouch1,
+  .welcomeToSmallCap {
+    font-size: var(--font-size-3xl);
+  }
+  .needToGet {
+    font-size: var(--font-size-lg);
+  }
+  .emailAddress,
+  .fullName {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .inputContainer {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .sendMessage {
+    flex-wrap: wrap;
+  }
+}

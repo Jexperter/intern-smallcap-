@@ -1,0 +1,214 @@
+.frameChild,
+.logoicon {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  height: 66px;
+  width: 1280px;
+  background-color: var(--color-darkslateblue-200);
+  max-width: 100%;
+}
+.logoicon {
+  height: 23.6px;
+  width: 23.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logotext1 {
+  position: relative;
+  font-size: var(--font-size-base-9);
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--heading-h4-semibold);
+  color: var(--neutral-main-900);
+  text-align: left;
+  display: inline-block;
+  min-width: 22px;
+}
+.logoComponents,
+.logotext {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logotext {
+  width: 92px;
+  padding: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.logoComponents {
+  margin-bottom: -17.6px;
+  flex: 1;
+  padding: var(--padding-base-6) 0 var(--padding-base-5) 0;
+  gap: var(--gap-10xs-9);
+}
+.menuIcon {
+  height: 23.6px;
+  width: 23.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navTopBarmobile {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs-4) var(--padding-mid) var(--padding-5xs-3);
+  background-color: var(--neutral-main-50);
+  height: 38.3px;
+  width: 83.2px;
+  box-shadow: 0 0.7px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.logoicon1 {
+  height: 23.6px;
+  width: 23.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.logotext3 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 38px;
+}
+.logotext2 {
+  width: 92px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.logoComponents1,
+.menuIcon1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.logoComponents1 {
+  flex: 1;
+  top: -10.3px;
+  left: 17.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-6) 0 var(--padding-base-5) 0;
+  gap: var(--gap-10xs-9);
+}
+.menuIcon1 {
+  height: 23.6px;
+  width: 23.6px;
+  top: 7.4px;
+  left: 61.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.navTopBarmobile1 {
+  height: 38.3px;
+  width: 103px;
+  box-shadow: 0 0.7px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--neutral-main-50);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+  position: relative;
+}
+.logoicon2 {
+  height: 23.6px;
+  width: 23.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.logotext5 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 50px;
+}
+.logoComponents2,
+.logotext4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logotext4 {
+  width: 92px;
+  padding: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.logoComponents2 {
+  margin-bottom: -17.6px;
+  flex: 1;
+  padding: var(--padding-base-6) 0 var(--padding-base-5) 0;
+  gap: var(--gap-10xs-9);
+}
+.menuIcon2 {
+  height: 23.6px;
+  width: 23.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navTopBarmobile2 {
+  height: 38.3px;
+  flex: 1;
+  box-shadow: 0 0.7px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--neutral-main-50);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-4) var(--padding-mid) var(--padding-5xs-3);
+  box-sizing: border-box;
+  min-width: 80px;
+}
+.hamburger,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.hamburger {
+  width: 368px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-10xl-4);
+  z-index: 2;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-darkslateblue-200);
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-14xl) var(--padding-mini-7);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base-9);
+  color: var(--neutral-main-900);
+  font-family: var(--heading-h4-semibold);
+}

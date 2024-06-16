@@ -1,0 +1,246 @@
+.topRectangle {
+  position: absolute;
+  height: 85.9%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 14.1%;
+  left: 0;
+  background-color: var(--color-gray-200);
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 56px;
+}
+.homeButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.topButtonContactChild {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.topButtonContact {
+  position: absolute;
+  top: 22.5px;
+  left: 151.5px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.ns1Icon {
+  position: absolute;
+  height: calc(100% - 2px);
+  width: 5.94%;
+  top: 2px;
+  right: 91.8%;
+  bottom: 0;
+  left: 2.27%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.group1SignUpChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+}
+.home1 {
+  margin-left: -1px;
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-abeezee);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+  display: inline-block;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  min-width: 72px;
+  white-space: nowrap;
+}
+.topButtonContactItem {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.group1SignUp,
+.topButtonContact1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.topButtonContact1 {
+  width: 70px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.group1SignUp {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10xs) var(--padding-mid) 0;
+  background-color: transparent;
+  position: absolute;
+  top: 18px;
+  left: 1023px;
+  flex-direction: row;
+}
+.group2LoginChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+}
+.home2 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-abeezee);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 51px;
+}
+.homeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) 0 var(--padding-3xs);
+}
+.topButtonContactInner {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.group2Login,
+.topButtonContact2 {
+  display: flex;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.topButtonContact2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-9xs);
+}
+.group2Login {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10xs) var(--padding-base) 0;
+  background-color: transparent;
+  position: absolute;
+  top: 18px;
+  left: 1146px;
+  width: 104px;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.home3 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.topButtonAboutChild {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.topButtonAbout {
+  position: absolute;
+  top: 23px;
+  left: 302px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.menu {
+  height: 78px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.header,
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.header {
+  flex: 1;
+  z-index: 1;
+}
+.headerWrapper {
+  align-self: stretch;
+  padding: 0 0 var(--padding-139xl-1);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 450px) {
+  .home,
+  .home1,
+  .home2 {
+    font-size: var(--font-size-base);
+  }
+}

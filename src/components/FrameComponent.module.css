@@ -1,0 +1,205 @@
+.iconEnvelopeWarn {
+  height: 76.6px;
+  width: 76.6px;
+  position: relative;
+  z-index: 5;
+}
+.envelopeIcon {
+  width: 344.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.subscribeNow {
+  position: relative;
+  font-weight: 700;
+  z-index: 5;
+}
+.subscribeTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-56xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enterYourEmail {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-h4-semibold-size);
+  line-height: 100%;
+  font-family: var(--font-moulpali);
+  z-index: 5;
+}
+.subscribeHeading,
+.subscriptionForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.subscribeHeading {
+  align-self: stretch;
+  gap: var(--gap-4xs);
+}
+.subscriptionForm {
+  width: 605px;
+  gap: var(--gap-14xl-4);
+}
+.frameChild {
+  height: 88px;
+  width: 822px;
+  position: relative;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.emailAddress {
+  align-self: stretch;
+  height: 58px;
+  position: relative;
+  display: flex;
+  font-style: italic;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 6;
+}
+.emailAddressWrapper {
+  margin-left: -688px;
+  width: 261px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.subscribeButtonContainer {
+  height: 66px;
+  width: 162px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.emailInput,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 822px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-white);
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-569xl) var(--padding-4xs)
+    var(--padding-642xl);
+  gap: var(--gap-408xl);
+  z-index: 5;
+}
+.emailInput {
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) 0 0;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-500);
+  font-family: var(--heading-h4-semibold);
+}
+.subscribeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-59xl);
+  max-width: 100%;
+}
+.subscribeContainerWrapper {
+  width: 1253px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-116xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 1275px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: var(--gap-194xl);
+    padding-left: var(--padding-311xl);
+    padding-right: var(--padding-275xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .subscribeContainer {
+    gap: var(--gap-20xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .subscribeNow {
+    font-size: var(--font-size-5xl);
+  }
+  .subscriptionForm {
+    gap: var(--gap-mid);
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: var(--gap-88xl);
+    padding-left: var(--padding-146xl);
+    padding-right: var(--padding-128xl);
+    box-sizing: border-box;
+  }
+  .subscribeContainerWrapper {
+    padding-bottom: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeNow {
+    font-size: var(--font-size-lg);
+  }
+  .subscribeTitle {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .enterYourEmail {
+    font-size: var(--font-size-lg);
+    line-height: 18px;
+  }
+  .emailAddress {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: var(--gap-34xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .subscribeContainer {
+    gap: var(--gap-lgi);
+  }
+}

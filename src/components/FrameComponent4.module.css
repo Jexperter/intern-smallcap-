@@ -1,0 +1,285 @@
+.todaysCryptocurrencyPrices {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.designer {
+  width: 315px;
+  position: relative;
+  letter-spacing: -0.36px;
+  display: inline-block;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.designerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-xl-4);
+  color: var(--color-steelblue);
+  font-family: var(--font-poppins);
+}
+.frameWrapper,
+.todaysCryptocurrencyPricesParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.todaysCryptocurrencyPricesParent {
+  width: 553px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.overview {
+  position: relative;
+  letter-spacing: 0.26em;
+  display: inline-block;
+  min-width: 116px;
+  z-index: 1;
+}
+.globalCrypto,
+.marketCap {
+  margin: 0;
+}
+.globalCryptoMarketContainer {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  font-family: var(--font-abel);
+  color: var(--color-white);
+  z-index: 1;
+}
+.overviewParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm-4);
+}
+.capitalization {
+  position: relative;
+  letter-spacing: 0.26em;
+  z-index: 1;
+}
+.t1 {
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.t {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  min-width: 112px;
+  z-index: 1;
+}
+.capitalizationParent,
+.tWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.tWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-21xl);
+  color: var(--color-plum);
+  font-family: var(--font-abel);
+}
+.capitalizationParent {
+  width: 184px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.searchBackground {
+  height: 68.4px;
+  width: calc(100% - 5px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 5px;
+  left: 0;
+  backdrop-filter: blur(4px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  z-index: 1;
+}
+.background62Icon {
+  height: 697px;
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: -561.2px;
+  left: -436px;
+  object-fit: cover;
+}
+.searchCryptoCurrencies {
+  text-decoration: none;
+  height: 57px;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  text-shadow: 0 3px 3.9px rgba(0, 0, 0, 0.39);
+  max-width: 100%;
+  z-index: 2;
+}
+.searchInputContainer,
+.searchInputContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.searchInputContainer {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.searchInputContainerWrapper {
+  width: 502px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.searchNormalIcon {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  transform: scale(4.536);
+}
+.wrapperSearchNormal {
+  height: 36px;
+  width: 37px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBackgroundParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-smi-2) var(--padding-8xl) 0 var(--padding-223xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xl-6);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-thistle);
+}
+.frameGroup,
+.frameParent,
+.homePageInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 991px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-48xl);
+}
+.homePageInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-59xl-8) var(--padding-6xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 1100px) {
+  .searchBackgroundParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-102xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-14xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .todaysCryptocurrencyPrices {
+    font-size: var(--font-size-13xl);
+  }
+  .globalCryptoMarketContainer,
+  .t {
+    font-size: var(--font-size-7xl);
+  }
+  .searchBackgroundParent {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .todaysCryptocurrencyPrices {
+    font-size: var(--font-size-5xl);
+  }
+  .designer {
+    font-size: var(--font-size-base);
+  }
+  .globalCryptoMarketContainer,
+  .t {
+    font-size: var(--font-size-lgi);
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .searchCryptoCurrencies {
+    font-size: var(--font-size-lgi);
+  }
+  .homePageInner {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}

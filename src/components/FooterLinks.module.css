@@ -1,0 +1,144 @@
+.nsai {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -10px;
+  left: -1px;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 2;
+}
+.ns2Icon {
+  height: 116px;
+  width: 116px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.copyright,
+.copyrightInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.copyrightInfo {
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.copyright {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xl);
+  font-size: var(--font-size-mini);
+}
+.about,
+.company,
+.home,
+.roadMap {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 2;
+}
+.about,
+.home,
+.roadMap {
+  min-width: 45px;
+}
+.about,
+.roadMap {
+  text-decoration: none;
+  color: inherit;
+  min-width: 46px;
+}
+.roadMap {
+  min-width: 77px;
+}
+.homeFormLinks {
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.companyProduct,
+.homeFormLinks,
+.homeProductLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homeProductLinks {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-base);
+}
+.companyProduct {
+  width: 130px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.faq,
+.form,
+.product,
+.token {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+  z-index: 2;
+}
+.faq,
+.form,
+.token {
+  min-width: 39px;
+}
+.faq,
+.token {
+  min-width: 44px;
+}
+.faq {
+  text-decoration: none;
+  color: inherit;
+  min-width: 30px;
+}
+.formParent {
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.companyProduct1,
+.companyProductInner,
+.formParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.companyProductInner {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-base);
+}
+.companyProduct1 {
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.footerLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 750px) {
+  .footerLinks {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .company,
+  .product {
+    font-size: var(--font-size-lg);
+  }
+}

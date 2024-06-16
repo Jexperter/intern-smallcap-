@@ -1,0 +1,85 @@
+.subscribe {
+  position: relative;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 2;
+}
+.subscribeField {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.inputBackground {
+  align-self: stretch;
+  height: 46px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  z-index: 2;
+}
+.buttonBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslateblue-100);
+}
+.primaryButton,
+.submit {
+  display: flex;
+  position: relative;
+}
+.submit {
+  height: 29px;
+  flex: 1;
+  font-size: var(--font-size-smi);
+  font-family: var(--heading-h4-semibold);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.primaryButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 68px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.submitContainer,
+.subscribeInput {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.submitContainer {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs);
+}
+.subscribeInput {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 450px) {
+  .subscribe {
+    font-size: var(--font-size-lg);
+  }
+}
