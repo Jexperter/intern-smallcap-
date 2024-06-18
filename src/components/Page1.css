@@ -1,0 +1,81 @@
+.page21-child {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  background-color: #fff;
+  width: 1280px;
+  height: 474px;
+}
+.background2-1-icon1 {
+  position: absolute;
+  top: 99px;
+  left: calc(50% - 808px);
+  width: 1616px;
+  height: 365px;
+  object-fit: cover;
+}
+.small-line-icon6 {
+  position: absolute;
+  top: 216px;
+  left: calc(50% - 230px);
+  width: 221px;
+  height: 22px;
+}
+.group-child14,
+.group-child15 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 640px);
+  background-color: rgba(24, 11, 55, 0.78);
+  width: 1280px;
+  height: 17px;
+}
+.group-child15 {
+  top: 21px;
+  height: 4px;
+}
+.arrows-icon,
+.rectangle-parent5 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 760px);
+  width: 1280px;
+  height: 25px;
+}
+.arrows-icon {
+  top: 40px;
+  left: calc(50% - 156px);
+  width: 73px;
+  height: 43px;
+}
+.about-our-company {
+  position: absolute;
+  top: 170px;
+  left: calc(50% - 294px);
+}
+.our-company-was {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+.a-decentralized-economy {
+  margin: 0;
+}
+.our-company-was-container {
+  position: absolute;
+  top: 266px;
+  left: 233px;
+  font-size: 18px;
+  display: inline-block;
+  width: 890px;
+}
+.page21 {
+  position: absolute;
+  top: 1032px;
+  left: -48px;
+  width: 1616px;
+  height: 474px;
+  text-align: left;
+  font-size: 36px;
+  color: #fff;
+  font-family: ABeeZee;
+}
